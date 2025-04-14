@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:password_validation/src/pages/widgets/password_validation_painel_widget.dart';
 import 'package:password_validation/src/shared/colors_app.dart';
 import 'package:password_validation/src/shared/custom_texfield_pwd.dart';
 
@@ -51,7 +52,7 @@ class ValidationPage extends StatelessWidget {
                   controller: TextEditingController(),
                 ),
                 const SizedBox(height: 37),
-                Container(height: 145, color: Colors.grey),
+                PasswordValidationPainelWidget(),
                 const SizedBox(height: 40),
                 ElevatedButton(
                   onPressed: () {},
